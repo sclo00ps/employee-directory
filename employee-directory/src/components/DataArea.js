@@ -86,10 +86,10 @@ export default class DataArea extends Component {
     });
   }
 
-  render() {
+ render() {
     return (
       <>
-        <Nav handleSearchChange={this.handleSearchChange} />
+      {/* <Nav handleSearchChange={this.handleSearchChange} /> */}
         <div className="data-area">
           <DataTable
             headings={this.headings}
@@ -97,7 +97,10 @@ export default class DataArea extends Component {
             handleSort={this.handleSort}
           />
         </div>
+
       </>
     );
+    
   }
+
 }
