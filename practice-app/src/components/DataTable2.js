@@ -5,7 +5,7 @@ import "react-bootstrap-table2-filter/dist/reactimport filterFactory, { textFilt
 
 // omit...
 const columns = [
-  ..., {
+  ...users, {
   dataField: 'phone',
   text: 'Phone',
   filter: textFilter()
