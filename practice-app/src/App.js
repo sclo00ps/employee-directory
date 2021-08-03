@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import DataArea from "./components/DataArea";
 import DataBody from "./components/DataBody";
 import DataTable from "./components/DataTable";
+//import "react-bootstrap-table2-filter/dist/reactimport filterFactory, { textFilter } from react-bootstrap-table2-filter";
 import SearchBox from "./components/SearchBox";
 import "./App.css";
 
