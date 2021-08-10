@@ -43,7 +43,7 @@ function DataBody({ users }) {
           );
         })
       ) : (
-        <></>
+        <div></div>
       )}
     </tbody>
   );

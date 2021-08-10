@@ -88,7 +88,7 @@ export default class DataArea extends Component {
 
   render() {
     return (
-      <>
+      <div>
         <Nav handleSearchChange={this.handleSearchChange} />
         <div className="data-area">
           <DataTable
@@ -97,7 +97,7 @@ export default class DataArea extends Component {
             handleSort={this.handleSort}
           />
         </div>
-      </>
+      </div>
     );
   }
 }
